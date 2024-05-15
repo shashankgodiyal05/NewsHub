@@ -9,8 +9,8 @@ function App() {
     let date = d.getDate() - 1; 
     let month = d.getMonth() + 1; // Month starts from 0
     let year = d.getFullYear();
-    // let fullDate = year + "-" + month + "-" + date;
-    let fullDate = "2024-3-31";
+    let fullDate = year + "-" + month + "-" + date;
+    // let fullDate = "2024-3-31";
 
     // Enter your apiKey here
     const apiKey = "3aae81b8578048eb8d35095d90bd7351"; 
