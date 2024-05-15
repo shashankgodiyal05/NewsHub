@@ -1,0 +1,61 @@
+/* header's css */
+
+.header {
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.branding {
+    font-size: 25px;
+}
+
+
+/* news article's css */
+
+.news-articles {
+    width: 100%;
+    padding: 30px 5%;
+    background-color: rgb(212, 222, 222);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    row-gap: 30px;
+}
+
+.news {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    row-gap: 5px;
+    border-radius: 5px;
+}
+
+.news-img {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(108, 108, 176);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.news-img img {
+    width: 100%;
+    height: 150px;
+}
+
+.source {
+    color: gray;
+}
+
+p {
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+}
